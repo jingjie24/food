@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Food Lovers' Paradise</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- Link to your CSS file -->
+  </head>
+  <body>
+    <nav>
+      <div class="logo">
+        <h1>Food Paradise</h1>
+      </div>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#food-spots">Food Spots</a></li>
+        <li><a href="#instagram">Instagram</a></li>
+        <li><a href="#map">Map</a></li>
+      </ul>
+    </nav>
+    <header class="hero">
+      <div class="hero-content">
+        <h2>Welcome to Food Lovers' Paradise</h2>
+        <p>
+          Discover the best food spots in town, explore trending dishes, and
+          find your next favorite place to eat!
+        </p>
+        <a href="#food-spots" class="cta-button">Explore Now</a>
+      </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+      <h3>About Us</h3>
+      <p>
+        We are passionate about food and helping you find the best spots in the
+        city. From street food to fine dining, we have it all covered. Join us
+        on a culinary journey and explore the rich flavors our city has to
+        offer.
+      </p>
+    </section>
+
+    <!-- Food Spots Section -->
+    <section id="food-spots" class="food-spots-section">
+      <h3>Top Food Spots</h3>
+      <div class="food-spot">
+        <img src="image_one.jpg" alt="Food Spot 1" />
+        <div class="food-spot-info">
+          <h4>Spot 1</h4>
+          <p>Amazing street food with a variety of options.</p>
+        </div>
+      </div>
+      <div class="food-spot">
+        <img src="image_two.jpg" alt="Food Spot 2" />
+        <div class="food-spot-info">
+          <h4>Spot 2</h4>
+          <p>Delicious fine dining with a unique ambiance.</p>
+        </div>
+      </div>
+      <!-- Add more food spots as needed -->
+    </section>
+
+    <!-- Instagram Section -->
+    <section id="instagram" class="instagram-section">
+      <div class="container">
+        <h2>Instagram Video Viewer</h2>
+        <input
+          type="text"
+          id="instaLink"
+          placeholder="Paste Instagram video link here"
+        />
+        <br />
+        <button onclick="viewVideo()">View</button>
+        <div class="video-container" id="videoContainer"></div>
+      </div>
+    </section>
+
+    <!-- Embed Instagram section-->
+    <div class="instagram-container">
+      <!-- First Instagram Video -->
+      <blockquote
+        class="instagram-media"
+        data-instgrm-permalink="https://www.instagram.com/p/C9mjvXeyCde/"
+        data-instgrm-version="13"
+      ></blockquote>
+
+      <!-- Second Instagram Video -->
+      <blockquote
+        class="instagram-media"
+        data-instgrm-permalink="https://www.instagram.com/p/C-IBAGny7p2/"
+        data-instgrm-version="13"
+      ></blockquote>
+
+      <!-- Third Instagram Video -->
+      <blockquote
+        class="instagram-media"
+        data-instgrm-permalink="https://www.instagram.com/p/C5PMZJlBTIX/"
+        data-instgrm-version="13"
+      ></blockquote>
+    </div>
+
+    <div class="instagram-container2">
+      <!-- First Instagram Video -->
+      <blockquote
+        class="instagram-media"
+        data-instgrm-permalink="https://www.instagram.com/p/C76mN86gBgB/"
+        data-instgrm-version="13"
+      ></blockquote>
+
+      <!-- Second Instagram Video -->
+      <blockquote
+        class="instagram-media"
+        data-instgrm-permalink="https://www.instagram.com/p/C3-LHYySJ8k/"
+        data-instgrm-version="13"
+      ></blockquote>
+    </div>
+
+    <script async defer src="//www.instagram.com/embed.js"></script>
+  </body>
+</html>
